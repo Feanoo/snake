@@ -259,9 +259,10 @@ def main():
                 if event.key == pygame.K_ESCAPE:
                     pygame.quit()
                     quit()
-                else:
-                    #game_loop()
+                elif event.key == pygame.K_i:
                     ia()
+                else:
+                    game_loop()
 
         SCREEN.fill((0,0,0))
         SCREEN.blit(txt, (x-w/2, y-h/2))
