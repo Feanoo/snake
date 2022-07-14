@@ -16,4 +16,4 @@ SNAKE.
 
 
 
-(press i to watch the snake grow on its own)
+(Appuyez sur i pour lancer l'IA)
